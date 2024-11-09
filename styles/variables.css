@@ -7,7 +7,7 @@
   --subtitle-color: #000028;
   --accent-color: #ff0070;
   --text-color: #f1b2ce;
-  --display: inline-block;
+  --display: block;
   --distance: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
 }
 
