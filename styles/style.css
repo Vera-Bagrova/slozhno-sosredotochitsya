@@ -269,14 +269,12 @@
   .section-accent .section__text-block {
     grid-column-start: span 3;
     grid-column-end: 4;
-  } 
+  }
 
   .section-gallery {
-    grid-template-columns: 1fr clamp(
-        14.375rem,
-        -1.5625rem + 33.2031vw,
-        19.6875rem
-      ) 1fr;
+    grid-template-columns:
+      1fr clamp(14.375rem, -1.5625rem + 33.2031vw, 19.6875rem)
+      1fr;
     grid-template-rows: repeat(4, auto);
   }
 
@@ -331,10 +329,10 @@
   .section-accent .section__title {
     max-width: 315px;
   }
-  
-  .section-accent .section__text-block  {
+
+  .section-accent .section__text-block {
     grid-column: auto;
-  } 
+  }
 
   .footer {
     min-block-size: 768px;
